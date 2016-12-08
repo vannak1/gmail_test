@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'rspec', '~> 3.5'
+gem 'capybara', '~> 2.5'
+gem 'selenium-webdriver'
+gem 'chromedriver-helper'
+gem 'factory_girl'
