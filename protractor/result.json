@@ -1,0 +1,11 @@
+[
+  {
+    "description": "it should display about page when not logged in",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1328
+  }
+]
