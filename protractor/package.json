@@ -1,0 +1,14 @@
+{
+  "name": "gmail_test",
+  "version": "1.0.0",
+  "description": "integration test for http://mail.google.com",
+  "main": "conf.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "author": "Vannak",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+  }
+}

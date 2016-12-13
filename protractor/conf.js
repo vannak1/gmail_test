@@ -1,6 +1,6 @@
 // conf.js
 exports.config = {
-  SeleniumServerJar: 'bin',
+  SeleniumServerJar: '/bin',
   localSeleniumStandaloneOpts: {
   port: 4040
   },
@@ -17,6 +17,6 @@ exports.config = {
       name: 'Vannak',
       email: 'vannak.learn',
       password: 'Drowssap12'
-    }; 
+    };
   }
 }
