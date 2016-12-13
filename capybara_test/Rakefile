@@ -1,0 +1,5 @@
+task :default => [:spec]
+
+task :spec do
+    ruby 'create_user.rb'
+end
