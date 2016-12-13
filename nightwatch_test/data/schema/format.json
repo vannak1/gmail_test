@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "user": {
+      "type": "object",
+      "properties": {
+        "prefix": {
+                "type": "integer",
+                "minimum": 1111,
+                "exclusiveMinimum": true,
+                "maximum": 9999,
+                "exclusiveMaximum": true
+        },
+        "suffix": {
+                "type": "integer",
+                "minimum": 1111,
+                "exclusiveMinimum": true,
+                "maximum": 9999,
+                "exclusiveMaximum": true
+        },
+        "firstName": {
+          "type": "string",
+          "faker": "name.firstName"
+        },
+        "lastName": {
+          "type": "string",
+          "faker": "name.lastName"
+        },
+        "phone": {
+          "type": "string",
+          "chance": "phone"
+        },
+        "birthday": {
+          "type": "object",
+          "properties": {
+          "month": {
+            "type": "string",
+            "chance": "month"
+          },
+          "year": {
+           "type": "integer",
+            "minimum": 1980,
+            "exclusiveMinimum": true,
+            "maximum": 2000,
+            "exclusiveMaximum": true
+          },
+          "day": {
+            "type": "integer",
+            "minimum": 1,
+            "exclusiveMinimum": true,
+            "maximum": 20,
+            "exclusiveMaximum": true
+          }
+        },
+        "required": ["month", "year", "day"]
+       }
+      },
+      "required": ["prefix", "suffix", "firstName", "lastName", "name", "phone", "birthday"]
+    }
+  },
+  "required": ["user"]
+}

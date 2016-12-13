@@ -25,6 +25,9 @@
   "devDependencies": {
     "aws-sdk": "^2.7.13",
     "env2": "^2.1.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-jsonschema-faker": "^0.3.1",
     "mime-types": "^2.1.13",
     "nodemon": "^1.11.0"
   },
