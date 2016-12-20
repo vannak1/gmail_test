@@ -1,5 +1,5 @@
-ENV['USER'] = "vannak.learn"
-ENV['PASS'] = "Drowssap12"
+ENV['USER'] = 
+ENV['PASS'] =
 
 require 'capybara/rspec'
 require 'faker'
